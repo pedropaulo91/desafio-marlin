@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesafioMarlin.Domain", "DesafioMarlin.Domain", "{507818EE-AE6F-476F-9B35-7EC299CD555D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesafioMarlin.Application", "DesafioMarlin.Application", "{5DE6F2FB-A4D5-4C2A-B200-44B7EE27BBE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioMarlin.Application", "DesafioMarlin.Application\DesafioMarlin.Application.csproj", "{5F2EA626-6B52-470A-AF8C-679B2085D589}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesafioMarlin.Infraestructure", "DesafioMarlin.Infraestructure", "{685FEF59-FB27-4FF2-AB28-3D4AC93370AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioMarlin.Domain", "DesafioMarlin.Domain\DesafioMarlin.Domain.csproj", "{9E66C0B2-F638-4564-9AC4-9828E8ECA1A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{C21F88FB-B788-4125-929D-35E853432E06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioMarlin.Infraestructure.Data", "DesafioMarlin.Infraestructure.Data\DesafioMarlin.Infraestructure.Data.csproj", "{592CE557-1E5B-49B4-9B5A-ADA27A437E5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesafioMarlin.Service", "DesafioMarlin.Service", "{11A46642-89E5-4EFF-B96A-032121C73A98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioMarlin.Service", "DesafioMarlin.Service\DesafioMarlin.Service.csproj", "{6EAA7A50-D9D2-436A-B1DB-E645BD32B447}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F2EA626-6B52-470A-AF8C-679B2085D589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2EA626-6B52-470A-AF8C-679B2085D589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2EA626-6B52-470A-AF8C-679B2085D589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F2EA626-6B52-470A-AF8C-679B2085D589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E66C0B2-F638-4564-9AC4-9828E8ECA1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E66C0B2-F638-4564-9AC4-9828E8ECA1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E66C0B2-F638-4564-9AC4-9828E8ECA1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E66C0B2-F638-4564-9AC4-9828E8ECA1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{592CE557-1E5B-49B4-9B5A-ADA27A437E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592CE557-1E5B-49B4-9B5A-ADA27A437E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592CE557-1E5B-49B4-9B5A-ADA27A437E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592CE557-1E5B-49B4-9B5A-ADA27A437E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EAA7A50-D9D2-436A-B1DB-E645BD32B447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EAA7A50-D9D2-436A-B1DB-E645BD32B447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EAA7A50-D9D2-436A-B1DB-E645BD32B447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EAA7A50-D9D2-436A-B1DB-E645BD32B447}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F2EA626-6B52-470A-AF8C-679B2085D589} = {5DE6F2FB-A4D5-4C2A-B200-44B7EE27BBE9}
+		{9E66C0B2-F638-4564-9AC4-9828E8ECA1A7} = {507818EE-AE6F-476F-9B35-7EC299CD555D}
+		{C21F88FB-B788-4125-929D-35E853432E06} = {685FEF59-FB27-4FF2-AB28-3D4AC93370AE}
+		{592CE557-1E5B-49B4-9B5A-ADA27A437E5E} = {C21F88FB-B788-4125-929D-35E853432E06}
+		{6EAA7A50-D9D2-436A-B1DB-E645BD32B447} = {11A46642-89E5-4EFF-B96A-032121C73A98}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14C415A3-9FBD-4A78-AEF8-4076D08ED48C}
+	EndGlobalSection
+EndGlobal
